@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+html{
+    background-image: url('newspaper.jpg');
+    background-size: 100%;
+}
+
+body{
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+p{text-align: center; color: white; font-family: 'Noto Sans KR', sans-serif; line-height: 35px;}

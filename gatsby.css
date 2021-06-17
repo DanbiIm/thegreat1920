@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+html{
+    background-image: url('newspaper.jpg');
+    background-size: 100%;
+}
+
+body{
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+#slider{
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+}
+
+#imageSlider{
+    width: 1800px;
+    display: flex;
+    transition: transform 0.5s;
+}
+
+#interface{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#leftArrow{
+    position: absolute;
+    left: 40px;
+    top: 230px;
+}
+
+#rightArrow{
+    position: absolute;
+    right: 40px;
+    top: 230px;
+    transform: scaleX(-1);
+}
+
+#bottomBtn{
+    display: flex;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottomBtn button{
+    padding: 6px 6px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+#bottomBtn button:hover{
+    padding: 6px 6px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8)
+}
